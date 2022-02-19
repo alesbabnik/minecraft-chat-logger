@@ -1,0 +1,21 @@
+{
+  "name": "amazing-minecraft-chat-reader",
+  "version": "1.0.0",
+  "description": "A module that reads the chat of a minecraft server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "minecraft",
+    "chat"
+  ],
+  "author": "Kristian Åkerblom",
+  "license": "ISC",
+  "devDependencies": {
+    "minecraft-protocol": "^1.30.0",
+    "nodemon": "^2.0.15"
+  }
+}
